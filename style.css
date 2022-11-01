@@ -1,0 +1,72 @@
+.main-dashboard {
+	text-align: center;
+}
+
+.main-dashboard h1 {
+	font-size: 66px;
+	font-weight: 400;
+}
+
+.main-dashboard h2 {
+	font-size: 34px;
+	color: #1F9644;
+	font-weight: 500;
+}
+
+.main-dashboard label {
+	font-size: 26px;
+	font-weight: 500;
+}
+
+.main-dashboard input {
+	width: 90%;
+	height: 3em;
+	border-radius: 3px;
+	border: 1px solid #B4B7BA;
+	padding-left: 8px;
+}
+
+.main-dashboard button {
+	margin-top: 15px;
+	background-color: #1A7B37;
+	font-size: 18px;
+	color: #FFF;
+	padding: 5px 10px;
+	border-radius: 3px;
+	border: none;
+}
+
+.custom-modal {
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 10;
+	top: 0;
+	left: 0;
+	padding-top: 25vh;
+	background-color: #00000020;
+}
+
+.modal-contents {
+	width: 80%;
+	margin: auto;
+	background-color: #FFF;
+	padding: 25px;
+}
+
+.close {
+	float: right;
+	color: #000;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+	cursor: pointer;
+}
+
+.modal-contents p {
+	margin-top: 1rem;
+}
